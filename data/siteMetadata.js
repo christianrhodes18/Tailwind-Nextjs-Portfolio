@@ -7,8 +7,8 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  siteLogo: '/static/images/logo-vaporwave.png',
+  image: '/static/images/portrait2022-cropped.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'thechristianrhodes@gmail.com',
   github: 'https://github.com/christianrhodes18',
