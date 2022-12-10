@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Typical from 'react-typical'
 
 const Introduction = () => {
     return (
@@ -7,16 +8,32 @@ const Introduction = () => {
                 <div className="flex-1 basis-1/2">
                     <div className="flex-1">
                         <h1 className="text-center text-5xl font-extrabold text-transparent bg-clip-text 
-                            bg-gradient-to-r from-blue-900 to-rose-400 py-4">
-                            Christian Rhodes
+                            bg-gradient-to-r from-blue-600 via-rose-300 to-orange-300 py-4 md:py-12">
+                            Hi. I'm Christian. <br></br> A Creative Developer
                         </h1>
                     </div>
                     <div className="flex-2">
-                        <h1 className="text-center text-2xl font-extrabold text-transparent bg-clip-text 
-                            bg-gradient-to-l from-blue-900 to-rose-400 underline decoration-sky-500
-                            py-4">
-                            Frontend Developer
-                        </h1>
+                        <p className="text-center text-2xl bg-clip-text py-4">
+                            I make{' '}
+                            <strong className="font-extrabold underline decoration-sky-500">
+                                <Typical
+                                    steps={[
+                                        'Frontends',
+                                        1500,
+                                        'Software',
+                                        1500,
+                                        'Web3 Content',
+                                        1200,
+                                        'Video Games',
+                                        1200,
+                                        'Web Designs',
+                                        1400,
+                                        ]}
+                                        wrapper="b"
+                                        loop={Infinity}
+                                />
+                            </strong>
+                        </p>
                     </div>
                 </div>
                 <div className="flex flex-2 basis-1/2 justify-center">

@@ -8,6 +8,7 @@ import { InferGetStaticPropsType } from 'next'
 // import NewsletterForm from '@/components/NewsletterForm'
 import { allBlogs } from 'contentlayer/generated'
 import Introduction from '@/components/Introduction'
+import Personable from '@/components/Personable'
 
 const MAX_DISPLAY = 5
 
@@ -98,7 +99,10 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
         </div>
       )}
 
-      <h1>Insert statement component here</h1>
+      <div className="divide-y divide-gray-200 dark:divide-gray-700 pt-6">
+        <p></p>
+        <Personable />
+      </div>
 
       {/* {siteMetadata.newsletter.provider !== '' && (
         <div className="flex items-center justify-center pt-4">
