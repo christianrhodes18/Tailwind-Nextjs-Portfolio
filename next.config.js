@@ -72,6 +72,9 @@ module.exports = withContentlayer(
         },
       ]
     },
+    images: {
+      domains: ['source.unsplash.com']
+    },
     webpack: (config, { dev, isServer }) => {
       config.module.rules.push({
         test: /\.svg$/,

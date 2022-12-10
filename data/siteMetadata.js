@@ -12,7 +12,7 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'thechristianrhodes@gmail.com',
   github: 'https://github.com/christianrhodes18',
-  twitter: 'https://twitter.com/Twitter',
+  twitter: 'https://twitter.com/chrisrhodesy',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/christianrhodes18',
