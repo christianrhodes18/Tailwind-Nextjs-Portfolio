@@ -41,3 +41,6 @@ yarn-error.log*
 # template info
 README2.md
 /data/astronaut.svg
+
+# blog drafts
+/data/blogChatGPT_Concerns.mdx
