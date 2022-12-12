@@ -9,7 +9,7 @@ const projectsData = [
     title: 'Old Portfolio Site with Vue.js',
     description: 'Made in March 2022, this site was made with Vue.js. The Deployment, Hosting, and CI/CD is done with Netlify. This site has been replaced as a personal portfolio with the current site. ',
     imgSrc: '/static/images/Vuejs-portfolio-site.png',
-    href: 'https://github.com/christianrhodes18/PersonalWebsite',
+    href: 'https://github.com/christianrhodes18/PersonalWebsite', //https://christian-rhodes-old.netlify.app/
   },
   {
     title: 'Quiz Web App',
