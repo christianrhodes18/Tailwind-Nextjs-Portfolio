@@ -2,8 +2,8 @@ import React from 'react'
 import Typed from 'typed.js'
 
 export function TypeAnim() {
-  let el = React.useRef(null)
-  let typed = React.useRef(null)
+  const el = React.useRef(null)
+  const typed = React.useRef(null)
 
   React.useEffect(() => {
     typed.current = new Typed(el.current, {
