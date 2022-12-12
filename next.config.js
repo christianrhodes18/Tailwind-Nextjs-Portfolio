@@ -73,7 +73,7 @@ module.exports = withContentlayer(
       ]
     },
     images: {
-      domains: ['source.unsplash.com']
+      domains: ['source.unsplash.com', 'drive.google.com']
     },
     webpack: (config, { dev, isServer }) => {
       config.module.rules.push({

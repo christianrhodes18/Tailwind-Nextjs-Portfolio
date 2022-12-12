@@ -21,7 +21,7 @@ const Introduction = () => {
                 <div className="flex flex-2 basis-1/2 justify-center">
                     <Image 
                     alt="Animation"
-                    src="/../public/static/images/transparent-hand.png"
+                    src="http://drive.google.com/uc?export=view&id=1dIniTvSGw0FtnlHhFM6WQlzCOfTzwmvk"
                     className="hover:scale-110 ease-in duration-500 overflow-hidden motion-safe:animate-pulse"
                     width="200"
                     height="300"
