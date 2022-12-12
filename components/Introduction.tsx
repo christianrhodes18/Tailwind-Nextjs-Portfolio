@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Typical from 'react-typical'
+import { TypeAnim } from 'components/TypeAnim'
 
 const Introduction = () => {
     return (
@@ -14,25 +14,7 @@ const Introduction = () => {
                     </div>
                     <div className="flex-2">
                         <p className="text-center text-2xl bg-clip-text py-4">
-                            I make{' '}
-                            <strong className="font-extrabold underline decoration-sky-500">
-                                <Typical
-                                    steps={[
-                                        'Frontends',
-                                        1500,
-                                        'Software',
-                                        1500,
-                                        'Web3 Content',
-                                        1200,
-                                        'Video Games',
-                                        1200,
-                                        'Web Designs',
-                                        1400,
-                                        ]}
-                                        wrapper="b"
-                                        loop={Infinity}
-                                />
-                            </strong>
+                            <TypeAnim />
                         </p>
                     </div>
                 </div>
@@ -44,9 +26,9 @@ const Introduction = () => {
                     width="200"
                     height="300"
                     layout='intrinsic'
-                    sizes="(max-width: 768px) 100vw,
+                    /* sizes="(max-width: 768px) 100vw,
                         (max-width: 1200px) 50vw,
-                        33vw"
+                        33vw" */
                     />
                 </div>
             </div>
