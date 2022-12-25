@@ -6,4 +6,4 @@ This is a personal developer portfolio website. Tailwind has made this site easy
 This site was made with the help of the Tailwind Nextjs Starter Blog [Template](https://vercel.com/templates/next.js/tailwind-css-starter-blog) from Vercel. 
 
 ## Additional Resources
-- [React Typical](https://github.com/catalinmiron/react-typical) for animated typing on home page
+- [Typed.js](https://github.com/mattboldt/typed.js/) for animated typing on home page
