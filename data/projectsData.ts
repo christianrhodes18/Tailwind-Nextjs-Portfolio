@@ -6,6 +6,12 @@ const projectsData = [
     href: 'https://github.com/nikhilchoppa/guitors' //https://retro-guitars.herokuapp.com
   },
   {
+    title: 'Three.js Interactive Walkthrough',
+    description: 'JavaScript application using the WebGL library Three.js demonstrating 3D scenes, cameras, lights, and advanced materials. This demo includes starter code to get started with Three.js.',
+    imgSrc: '/static/images/threejs_demo.png',
+    href: 'https://github.com/christianrhodes18/three-js-galaxy' //https://three-js-galaxy-mu.vercel.app/
+  },
+  {
     title: 'Old Portfolio Site with Vue.js',
     description: 'Made in March 2022, this site was made with Vue.js. The Deployment, Hosting, and CI/CD is done with Netlify. This site has been replaced as a personal portfolio with the current site. ',
     imgSrc: '/static/images/Vuejs-portfolio-site.png',
