@@ -7,3 +7,4 @@ This site was made with the help of the Tailwind Nextjs Starter Blog [Template](
 
 ## Additional Resources
 - [Typed.js](https://github.com/mattboldt/typed.js/) for animated typing on home page
+- Header Photo courtesy of [Simon Lee](https://unsplash.com/es/@simonppt)
