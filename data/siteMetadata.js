@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: 'My Portfolio',
+  title: 'Christian Rhodes',
   author: 'Christian Rhodes',
   headerTitle: 'Christian Rhodes',
-  description: 'A portfolio created with Next.js and Tailwind.css',
+  description: 'A portfolio and personal website created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
