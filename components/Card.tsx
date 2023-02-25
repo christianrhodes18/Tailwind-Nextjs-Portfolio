@@ -1,16 +1,20 @@
 import Image from './Image'
 import Link from './Link'
 
-const Card = ({ title, description, imgSrc, hrefSrc, hrefLive }) => (
-  <div className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
-    <div
-      className={`${
-        imgSrc && 'h-full'
-      }  overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 dark:border-gray-700`}
-    >
-      {imgSrc &&
-        (hrefSrc ? (
-          <Link href={hrefSrc} aria-label={`Link to ${title}`}>
+// interface CardProps {
+//   title: string,
+//   description: string,
+//   imgSrc?: string,
+//   hrefSrc?: string,
+//   hrefLive?: string,
+// }
+
+const renderImage = (title: string, imgSrc: string, hrefSrc: string, hrefLive: string) => {
+  console.log("Card: ", Card)
+  if (imgSrc) {
+    if (hrefSrc) {
+      return (
+        <Link href={hrefSrc} aria-label={`Link to ${title}`}>
             <Image
               alt={title}
               src={imgSrc}
@@ -19,15 +23,38 @@ const Card = ({ title, description, imgSrc, hrefSrc, hrefLive }) => (
               height={306}
             />
           </Link>
-        ) : (
-          <Image
-            alt={title}
-            src={imgSrc}
-            className="object-cover object-center md:h-36 lg:h-48"
-            width={544}
-            height={306}
-          />
-        ))}
+      )
+    }
+    else if (hrefLive) {
+      return (
+        <Link href={hrefLive} aria-label={`Link to ${title}`}>
+            <Image
+              alt={title}
+              src={imgSrc}
+              className="object-cover object-center md:h-36 lg:h-48 hover:scale-110 ease-in duration-300 "
+              width={544}
+              height={306}
+            />
+          </Link>
+      )
+    }
+  }
+    else {
+      console.log("No image found")
+      return
+    }
+}
+
+const Card = ({ title, description, imgSrc, hrefSrc, hrefLive }) => (
+  <div className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
+    <div
+      className={`${
+        imgSrc && 'h-full'
+      }  overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 dark:border-gray-700`}
+    >
+      
+      {renderImage(title, imgSrc, hrefSrc, hrefLive)}
+
       <div className="p-6">
         <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
           {hrefSrc ? (

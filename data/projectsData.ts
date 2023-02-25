@@ -1,5 +1,17 @@
 const projectsData = [
   {
+    title: 'OPTX Website',
+    description: 'I made this website for OPTX (a crytpocurrency project) as a contract for Dappd, a Web3 SaaS company. This responsive site was built from scratch from a Figma design using Next.js and Tailwind CSS. ',
+    imgSrc: '/static/images/optx.png',
+    hrefLive: 'https://optx.money/'
+  },
+  // {
+  //   title: 'Daylight Apollo',
+  //   description: '',
+  //   imgSrc: '',
+  //   hrefLive: ''
+  // },
+  {
     title: 'Full Stack Marketplace',
     description: 'Built with Python Flask, this full stack marketplace project utilizes AWS for the backend storing info related to users and products. Users can register / log in, add and remove products from cart, search, and checkout. ',
     imgSrc: '/static/images/guitar-marketplace.png',
