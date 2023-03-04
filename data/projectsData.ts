@@ -1,16 +1,16 @@
 const projectsData = [
   {
+    title: 'Daylight Apollo',
+    description: "I made this landing page for Daylight Farms (a crytpocurrency project) for Dappd, a Web3 SaaS company I work closely with as an independent contractor. This responsive site was over several iterations as Daylight's designers found the best design for their project. " ,
+    imgSrc: '/static/images/daylight_apollo.png',
+    hrefLive: 'https://ignite.apollolaunch.tech/'
+  },
+  {
     title: 'OPTX Website',
     description: 'I made this website for OPTX (a crytpocurrency project) as a contract for Dappd, a Web3 SaaS company. This responsive site was built from scratch from a Figma design using Next.js and Tailwind CSS. ',
     imgSrc: '/static/images/optx.png',
     hrefLive: 'https://optx.money/'
   },
-  // {
-  //   title: 'Daylight Apollo',
-  //   description: '',
-  //   imgSrc: '',
-  //   hrefLive: ''
-  // },
   {
     title: 'Full Stack Marketplace',
     description: 'Built with Python Flask, this full stack marketplace project utilizes AWS for the backend storing info related to users and products. Users can register / log in, add and remove products from cart, search, and checkout. ',

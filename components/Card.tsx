@@ -1,14 +1,6 @@
 import Image from './Image'
 import Link from './Link'
 
-// interface CardProps {
-//   title: string,
-//   description: string,
-//   imgSrc?: string,
-//   hrefSrc?: string,
-//   hrefLive?: string,
-// }
-
 const renderImage = (title: string, imgSrc: string, hrefSrc: string, hrefLive: string) => {
   console.log("Card: ", Card)
   if (imgSrc) {
@@ -52,7 +44,7 @@ const Card = ({ title, description, imgSrc, hrefSrc, hrefLive }) => (
         imgSrc && 'h-full'
       }  overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 dark:border-gray-700`}
     >
-      
+
       {renderImage(title, imgSrc, hrefSrc, hrefLive)}
 
       <div className="p-6">
