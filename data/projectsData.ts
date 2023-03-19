@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Movie TV Tracker App',
+    description: 'Inspired by the tracking and rating systems from Letterboxd, I want to make a clean and minimalistic interface where users can search and view any movie, add it to their list and rate it. A roadmap and the project details are available in the GitHub repo README. ',
+    imgSrc: '/static/images/movie-tv-tracker.gif',
+    hrefSrc: 'https://github.com/christianrhodes18/movie-tv-tracker'
+  },
+  {
     title: 'Daylight Apollo',
     description: "I made this landing page for Daylight Farms (a crytpocurrency project) for Dappd, a Web3 SaaS company I work closely with as an independent contractor. This responsive site was over several iterations as Daylight's designers found the best design for their project. " ,
     imgSrc: '/static/images/daylight_apollo.png',

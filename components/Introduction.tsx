@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import handImage from 'public/static/images/transparent-hand.png'
 import { TypeAnim } from 'components/TypeAnim'
 
 const Introduction = () => {
@@ -21,7 +22,8 @@ const Introduction = () => {
                 <div className="flex flex-2 basis-1/2 justify-center">
                     <Image 
                     alt="Animation"
-                    src="https://drive.google.com/uc?export=view&id=1ZTlUvHiImi6sJ8Ydg-GVoZ3Taarjhk_A"
+                    src={handImage}
+                    // src="https://drive.google.com/uc?export=view&id=1ZTlUvHiImi6sJ8Ydg-GVoZ3Taarjhk_A"
                     /* src="https://drive.google.com/uc?export=view&id=1dIniTvSGw0FtnlHhFM6WQlzCOfTzwmvk" */
                     className="hover:scale-110 ease-in duration-500 overflow-hidden motion-safe:animate-pulse"
                     width="200"
