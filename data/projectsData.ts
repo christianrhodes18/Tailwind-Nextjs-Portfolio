@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Luna Sky NFT Marketplace',
+    description: 'This is a large-scale NFT marketplace project that is currently in Beta. I was assigned to designing and implementing a schema, which included relationships like social interactions, account management, and Web3 metrics. I also integrated user profile APIs using GraphQL and Apollo. ',
+    imgSrc: '/static/images/luna-sky.png',
+    hrefLive: 'https://www.lunasky.com/'
+  },
+  {
     title: 'Movie TV Tracker App',
     description: 'Inspired by the tracking and rating systems from Letterboxd, I want to make a clean and minimalistic interface where users can search and view any movie, add it to their list and rate it. A roadmap and the project details are available in the GitHub repo README. ',
     imgSrc: '/static/images/movie-tv-tracker.gif',
