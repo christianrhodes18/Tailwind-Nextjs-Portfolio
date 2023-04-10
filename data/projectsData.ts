@@ -1,16 +1,28 @@
 const projectsData = [
   {
+    title: 'FAMCO Website',
+    description: 'This website was made for FAMCO, a sustainable bitcoin mining company. This site is a responsive SPA built with Next.js and Tailwind CSS.',
+    imgSrc: '/static/images/famco_site.png',
+    hrefLive: 'https://firstargentinemining.co/'
+  },
+  // {
+  //   title: 'AI Assisted Mobile Store Screen',
+  //   description: 'This is a large-scale NFT marketplace project that is currently in Beta. I was assigned to designing and implementing a schema, which included relationships like social interactions, account management, and Web3 metrics. I also integrated user profile APIs using GraphQL and Apollo. ',
+  //   imgSrc: '/static/images/luna-sky.png',
+  //   hrefLive: 'https://www.lunasky.com/'
+  // },
+  {
     title: 'Luna Sky NFT Marketplace',
     description: 'This is a large-scale NFT marketplace project that is currently in Beta. I was assigned to designing and implementing a schema, which included relationships like social interactions, account management, and Web3 metrics. I also integrated user profile APIs using GraphQL and Apollo. ',
     imgSrc: '/static/images/luna-sky.png',
     hrefLive: 'https://www.lunasky.com/'
   },
-  {
-    title: 'Movie TV Tracker App',
-    description: 'Inspired by the tracking and rating systems from Letterboxd, I want to make a clean and minimalistic interface where users can search and view any movie, add it to their list and rate it. A roadmap and the project details are available in the GitHub repo README. ',
-    imgSrc: '/static/images/movie-tv-tracker.gif',
-    hrefSrc: 'https://github.com/christianrhodes18/movie-tv-tracker'
-  },
+  // {
+  //   title: 'Movie TV Tracker App',
+  //   description: 'Inspired by the tracking and rating systems from Letterboxd, I want to make a clean and minimalistic interface where users can search and view any movie, add it to their list and rate it. A roadmap and the project details are available in the GitHub repo README. ',
+  //   imgSrc: '/static/images/movie-tv-tracker.gif',
+  //   hrefSrc: 'https://github.com/christianrhodes18/movie-tv-tracker'
+  // },
   {
     title: 'Daylight Apollo',
     description: "I made this landing page for Daylight Farms (a crytpocurrency project) for Dappd, a Web3 SaaS company I work closely with as an independent contractor. This responsive site was over several iterations as Daylight's designers found the best design for their project. " ,
