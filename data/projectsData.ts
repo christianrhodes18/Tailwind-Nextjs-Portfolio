@@ -5,12 +5,13 @@ const projectsData = [
     imgSrc: '/static/images/famco_site.png',
     hrefLive: 'https://firstargentinemining.co/'
   },
-  // {
-  //   title: 'AI Assisted Mobile Store Screen',
-  //   description: 'This is a large-scale NFT marketplace project that is currently in Beta. I was assigned to designing and implementing a schema, which included relationships like social interactions, account management, and Web3 metrics. I also integrated user profile APIs using GraphQL and Apollo. ',
-  //   imgSrc: '/static/images/luna-sky.png',
-  //   hrefLive: 'https://www.lunasky.com/'
-  // },
+  {
+    title: 'AI Assisted Mobile Store Screen',
+    description: 'Mobile AI Marketplace page made with the assistance of Midjourney, Stable Diffusion, and Figma. This project is a proof of concept for AI-assisted development, from design to implementation. ',
+    imgSrc: '/static/images/mobile-marketplace-ai.png',
+    hrefSrc: 'https://github.com/christianrhodes18/mobile-market-ai',
+    hrefLive: 'https://christianrhodes18.github.io/mobile-market-ai/'
+  },
   {
     title: 'Luna Sky NFT Marketplace',
     description: 'This is a large-scale NFT marketplace project that is currently in Beta. I was assigned to designing and implementing a schema, which included relationships like social interactions, account management, and Web3 metrics. I also integrated user profile APIs using GraphQL and Apollo. ',
