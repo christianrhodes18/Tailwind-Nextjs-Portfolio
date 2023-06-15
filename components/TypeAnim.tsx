@@ -18,20 +18,19 @@ export function TypeAnim() {
 
   return (
     <div>
-        <span>I make </span>
-        <strong className="font-extrabold underline decoration-sky-500">
-            <ul id="bios" className="hidden">
-                {/* <li>
+      <span>I make </span>
+      <strong className="font-extrabold underline decoration-sky-500">
+        <ul id="bios" className="hidden">
+          {/* <li>
                     <b className="font-medium">Software</b> at work.
                 </li> */}
-                <li>Frontends</li>
-                <li>Software</li>
-                <li>Video Games</li>
-                <li>Web3 Content</li>
-                <li>Web Designs</li>
-            </ul>
-            <span ref={el} className="text-neutral-900 dark:text-neutral-200" />
-        </strong>
+          <li>Responsive Websites</li>
+          <li>Software</li>
+          <li>Video Games</li>
+          <li>UI / UX Designs</li>
+        </ul>
+        <span ref={el} className="text-neutral-900 dark:text-neutral-200" />
+      </strong>
     </div>
   )
 }
