@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import handImage from 'public/static/images/transparent-hand.png'
+import profileImage from 'public/static/images/transparent-hand.png'
 import { TypeAnim } from 'components/TypeAnim'
 import Link from 'next/link'
 
@@ -21,7 +21,7 @@ const Introduction = () => {
           <div className="py-8 flex flex-row">
             <div className="border-2 border-[#D9D9D9]"></div>
             <div className="pl-6">
-              <p className="text-left text-2xl bg-clip-text py-4">
+              <p className="text-left text-2xl bg-clip-text pt-4 pb-6">
                 <TypeAnim />
               </p>
               <button className="bg-[#D9D9D9] rounded-xl text-black font-medium p-2 mb-2">
@@ -35,9 +35,8 @@ const Introduction = () => {
         <div className="flex-2 flex basis-1/2 justify-center">
           <Image
             alt="Animation"
-            src={handImage}
+            src={profileImage}
             // src="https://drive.google.com/uc?export=view&id=1ZTlUvHiImi6sJ8Ydg-GVoZ3Taarjhk_A"
-            /* src="https://drive.google.com/uc?export=view&id=1dIniTvSGw0FtnlHhFM6WQlzCOfTzwmvk" */
             className="hover:scale-110 ease-in duration-500 overflow-hidden motion-safe:animate-pulse"
             width="200"
             height="300"
@@ -50,17 +49,17 @@ const Introduction = () => {
       </section>
 
       {/* link cards section */}
-      <section className="flex flex-row gap-8">
+      <section className="flex flex-col md:flex-row gap-8">
         <div className="bg-slate-500 w-full">
-          <Image src="/" height="500" width="300"></Image>
+          <Image src="/" height="500" width="300" />
         </div>
         <div className="bg-slate-500 w-full">
-          <Image src="/" height="500" width="300"></Image>
+          <Image src="/" height="500" width="300" />
         </div>
       </section>
 
       {/* blog posts title */}
-      <section className="pt-24">
+      <section className="pt-28">
         <h1 className="text-center text-5xl uppercase font-medium">Blog Posts</h1>
       </section>
     </>
