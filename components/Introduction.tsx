@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import profileImage from 'public/static/images/transparent-hand.png'
+import aboutMeImage from 'public/static/images/AboutMeImage.jpg'
 import { TypeAnim } from 'components/TypeAnim'
 import Link from 'next/link'
 
@@ -16,7 +17,12 @@ const Introduction = () => {
                             Hi. I'm Christian.
                         </h1> */}
             <h1 className="text-5xl font-bold">Hi. I'm Christian</h1>
-            <h2 className="text-4xl font-medium pt-4">A Creative Developer</h2>
+            <h2
+              className="text-4xl font-medium pt-4 text-transparent bg-clip-text 
+                            bg-gradient-to-r from-blue-600 via-rose-300 to-orange-300"
+            >
+              A Creative Developer
+            </h2>
           </div>
           <div className="py-8 flex flex-row">
             <div className="border-2 border-[#D9D9D9]"></div>
@@ -50,12 +56,21 @@ const Introduction = () => {
 
       {/* link cards section */}
       <section className="flex flex-col md:flex-row gap-8">
-        <div className="bg-slate-500 w-full">
-          <Image src="/" height="500" width="300" />
-        </div>
-        <div className="bg-slate-500 w-full">
-          <Image src="/" height="500" width="300" />
-        </div>
+        <Link href="/projects">
+          <div className="relative cursor-pointer w-full bg-[url('../public/static/images/MyWorkImage.jpeg')] bg-cover h-[500px]">
+            <h3 className="uppercase text-center absolute inset-x-0 bottom-8 font-medium text-4xl">
+              My Work
+            </h3>
+          </div>
+        </Link>
+        <Link href="/about">
+          <div className="relative cursor-pointer w-full">
+            <Image className="opacity-60" src={aboutMeImage} height="800" />
+            <h3 className="uppercase text-center absolute inset-x-0 bottom-8 font-medium text-4xl">
+              About Me
+            </h3>
+          </div>
+        </Link>
       </section>
 
       {/* blog posts title */}
