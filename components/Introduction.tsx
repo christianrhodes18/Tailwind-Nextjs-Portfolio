@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import profileImage from 'public/static/images/transparent-hand.png'
-import aboutMeImage from 'public/static/images/AboutMeImage.jpg'
 import { TypeAnim } from 'components/TypeAnim'
 import Link from 'next/link'
 
@@ -31,9 +30,9 @@ const Introduction = () => {
                 <TypeAnim />
               </p>
               <button className="bg-[#D9D9D9] rounded-xl text-black font-medium p-2 mb-2">
-                <Link href="../assets/Resume/ResumeOfficial.pdf" download="ResumeOfficial.pdf">
+                <a href="../public/static/Resume.pdf" download>
                   Download Resume
-                </Link>
+                </a>
               </button>
             </div>
           </div>
@@ -43,7 +42,7 @@ const Introduction = () => {
             alt="Animation"
             src={profileImage}
             // src="https://drive.google.com/uc?export=view&id=1ZTlUvHiImi6sJ8Ydg-GVoZ3Taarjhk_A"
-            className="hover:scale-110 ease-in duration-500 overflow-hidden motion-safe:animate-pulse"
+            className="hover:scale-110 ease-in duration-500 overflow-hidden" /* motion-safe:animate-pulse */
             width="200"
             height="300"
             layout="intrinsic"
@@ -55,18 +54,17 @@ const Introduction = () => {
       </section>
 
       {/* link cards section */}
-      <section className="flex flex-col md:flex-row gap-8">
+      <section className="flex flex-col md:flex-row gap-8 text-white">
         <Link href="/projects">
           <div className="relative cursor-pointer w-full bg-[url('../public/static/images/MyWorkImage.jpeg')] bg-cover h-[500px]">
-            <h3 className="uppercase text-center absolute inset-x-0 bottom-8 font-medium text-4xl">
+            <h3 className="uppercase text-center absolute inset-x-0 bottom-8 font-medium text-4xl drop-shadow-lg">
               My Work
             </h3>
           </div>
         </Link>
         <Link href="/about">
-          <div className="relative cursor-pointer w-full">
-            <Image className="opacity-60" src={aboutMeImage} height="800" />
-            <h3 className="uppercase text-center absolute inset-x-0 bottom-8 font-medium text-4xl">
+          <div className="relative cursor-pointer w-full bg-[url('../public/static/images/AboutMeImage.jpg')] bg-cover h-[500px]">
+            <h3 className="uppercase text-center absolute inset-x-0 bottom-8 font-medium text-4xl drop-shadow-lg">
               About Me
             </h3>
           </div>
