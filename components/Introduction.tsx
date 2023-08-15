@@ -30,8 +30,8 @@ const Introduction = () => {
                 <TypeAnim />
               </p>
               <button className="bg-[#D9D9D9] rounded-xl text-black font-medium p-2 mb-2">
-                <a href="../public/static/Resume.pdf" download>
-                  Download Resume
+                <a target="_blank" href="https://github.com/christianrhodes18" rel="noreferrer">
+                  View GitHub
                 </a>
               </button>
             </div>
