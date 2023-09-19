@@ -55,7 +55,7 @@ const Introduction = () => {
       </section>
 
       {/* link cards section */}
-      <section className="flex flex-col md:flex-row gap-8 text-white w-3/5 max-h-[600px] mx-auto md:w-full">
+      <section className="flex flex-col md:flex-row gap-8 text-white w-4/5 sm:w-3/5 max-h-[600px] mx-auto md:w-full">
         <Link href="/projects">
           <div className="relative cursor-pointer w-full bg-center bg-[url('../public/static/images/MyWorkImage.jpeg')] bg-cover h-[500px]">
             <h3 className="uppercase text-center absolute inset-x-0 bottom-8 font-medium text-4xl drop-shadow-lg">
