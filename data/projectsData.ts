@@ -1,5 +1,12 @@
 const projectsData = [
   {
+    title: 'Lion Capital Website',
+    description:
+      'Home page for Lion Capital, and an NFT Minting page. Simple, responsive pages for a creative project with comprehensive information and functionality for interested users. ',
+    imgSrc: '/static/images/lion-capital.png',
+    hrefLive: 'https://www.lioncapitalnft.com/',
+  },
+  {
     title: 'Lemono Website',
     description:
       'Website for Lemono, a cryptocurrency project. This site is a responsive SPA built with Next.js and Tailwind CSS.',
