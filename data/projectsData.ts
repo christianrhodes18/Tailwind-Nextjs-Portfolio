@@ -1,5 +1,12 @@
 const projectsData = [
   {
+    title: "Aesthete's Digest",
+    description:
+      'Media blog with an emphasis on aesthetics. Stylish and sleek responsive designs with framer motion animations and features like light/dark mode and post filtering. ',
+    imgSrc: '/static/images/aesthetesdigest.png',
+    hrefLive: 'https://www.aesthetesdigest.com',
+  },
+  {
     title: 'Lion Capital Website',
     description:
       'Home page for Lion Capital, and an NFT Minting page. Simple, responsive pages for a creative project with comprehensive information and functionality for interested users. ',
